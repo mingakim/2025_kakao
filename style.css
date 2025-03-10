@@ -1,10 +1,10 @@
-./* 폰트 *./
+/* 폰트 */
 html {
-    ./* 영문이면 roboto가 적용되고, 한글이면 Noto Sans KR가 적용되도록 아래와 같은 순서로 배치 *./
+    /* 영문이면 roboto가 적용되고, 한글이면 Noto Sans KR가 적용되도록 아래와 같은 순서로 배치 */
     font-family: "Roboto", "Noto Sans KR", sans-serif;
 }
 
-./* 노말라이즈 *./
+/* 노말라이즈 */
 body, ul, li, h3 {
     margin: 0;
     padding: 0;
@@ -16,7 +16,7 @@ a {
     color: inherit;
 }
 
-./* 라이브러리 *./
+/* 라이브러리 */
 .border-red {
     border: 5px solid red;            
 }
@@ -79,7 +79,7 @@ a {
     color: #000;
 }
 
-./* 커스텀 *./
+/* 커스텀 */
 .con_min_width {
     min-width: 1080px;
 }     
@@ -97,10 +97,10 @@ a {
     width: 24px;
     height: 24px;
     display: inline-block;
-    background-image: url(./kakaoimage./img_kabang_220615.png);
+    background-image: url(/kakaoimage/img_kabang_220615.png);
 }
 
-./* 탑바 시작 *./
+/* 탑바 시작 */
 .top_bar {
     height: 80px;
     width: 100%;
@@ -113,7 +113,7 @@ a {
     z-index: 100;
 }
 
-./* 로고 *./
+/* 로고 */
 .top_bar .logo_wrap > a {
     width: 116px;
 }
@@ -122,7 +122,7 @@ a {
     width: 100%;
 }
 
-./* 메뉴박스 *./      
+/* 메뉴박스 */      
 .top_bar .menu_box > ul > li {
     padding: 0 12px;
     margin: 0 12px;
@@ -136,7 +136,7 @@ a {
     text-decoration: underline;
 }     
 
-./* 메뉴박스 - 2차 메뉴 *./
+/* 메뉴박스 - 2차 메뉴 */
 .top_bar .menu_box > ul > li > div {
     width: 100%;
     background-color: #fff;
@@ -155,11 +155,11 @@ a {
 }
 
 .top_bar .menu_box .menu_box_sub-menu > .con > ul > li {
-    width: calc(100%./6);
+    width: calc(100%/6);
 }
 
 .top_bar .menu_box ul > li:nth-child(1) .menu_box_sub-menu > .con > ul > li {
-    width: calc(100%./4);
+    width: calc(100%/4);
 }
 
 .top_bar .menu_box .menu_box_sub-menu > .con > ul > li > a {
@@ -181,7 +181,7 @@ a {
     display: inline-block;
     width: 14px;
     height: 14px;
-    background: url(https:././kakaobank.com./static./images./web./svg_line_outlink.svg);
+    background: url(https://kakaobank.com/static/images/web/svg_line_outlink.svg);
     background-size: 14px 14px;
     margin-left: 5px;
     vertical-align: middle;
@@ -189,7 +189,7 @@ a {
 }
 
 
-./* 관련사이트 *./
+/* 관련사이트 */
 .top_bar .dropdown {
     position: relative;
 }
@@ -212,7 +212,7 @@ a {
     margin-left: 10px;
     width: 12px;
     height: 12px;
-    background: url(./kakaoimage./svg_line_arrow_down.svg);
+    background: url(/kakaoimage/svg_line_arrow_down.svg);
     background-size: 12px 12px;
     transform: rotate(0);
     transition: transform .3s ease;
@@ -254,7 +254,7 @@ a {
     display: inline-block;
     width: 12px;
     height: 12px;
-    background: url(https:././kakaobank.com./static./images./web./svg_line_outlink.svg);
+    background: url(https://kakaobank.com/static/images/web/svg_line_outlink.svg);
     background-size: 12px 12px;
     margin-left: 8px;
     vertical-align: middle;
@@ -270,7 +270,7 @@ a {
     visibility: visible;
 }
 
-./* 글로벌로고 *./
+/* 글로벌로고 */
 .top_bar .global_logo {
     width: 20px;            
 }
@@ -284,9 +284,9 @@ a {
     opacity: .3;
 }
 
-./* 탑바 끝 *./
+/* 탑바 끝 */
 
-./* 메인 visual 시작 *./
+/* 메인 visual 시작 */
 .main_visual .bg {
     position: absolute;
     top: 0; 
@@ -297,7 +297,7 @@ a {
     z-index: -1;
 }
 
-./* 메인 visual 텍스트 *./
+/* 메인 visual 텍스트 */
 .main_visual .text-box {
     position: absolute;
     top: 136px;
@@ -357,10 +357,10 @@ a {
 }
 
 
-./* 메인 visual 끝 *./
+/* 메인 visual 끝 */
 
-./* 중간섹션 시작 *./
-./* 공통섹션 시작 *./
+/* 중간섹션 시작 */
+/* 공통섹션 시작 */
 .md_sec {
     min-height: 500px;
     display: flex;
@@ -426,9 +426,9 @@ a {
 .md_sec_1, .md_sec_2, .md_sec_3, .md_sec_5_wrap   {
     height: 750px;
 }
-./* 공통섹션 끝 *./
+/* 공통섹션 끝 */
 
-./* 섹션1 시작 *./
+/* 섹션1 시작 */
 
 
 .md_sec_1 > div:first-child > * {
@@ -442,9 +442,9 @@ a {
 .md_sec_1 .img-box {
     width: 473px;
 }        
-./* 섹션1 끝 *./
+/* 섹션1 끝 */
 
-./* 섹션2 시작 *./
+/* 섹션2 시작 */
 .md_sec_2 > div:first-child > * {
     margin-left: 70px;
 }
@@ -482,9 +482,9 @@ a {
     display: block;
     width: 100%;
 }
-./* 섹션2 끝 *./
+/* 섹션2 끝 */
 
-./* 섹션3 시작 *./
+/* 섹션3 시작 */
 .md_sec_3 > div:first-child > * {
     margin-left: 57px;
 }
@@ -496,9 +496,9 @@ a {
 .md_sec_3 .img-box {
     width: 458px;
 }
-./* 섹션3 끝 *./
+/* 섹션3 끝 */
 
-./* 섹션4 시작 *./
+/* 섹션4 시작 */
 .md_sec_4  {
     height: 650px;
 }
@@ -514,9 +514,9 @@ a {
 .md_sec_4 .img-box {
     width: 492px;
 }
-./* 섹션4 끝 *./
+/* 섹션4 끝 */
 
-./* 섹션5 시작 *./
+/* 섹션5 시작 */
 .md_sec_5 > div:first-child > * {
     margin-left: 75px;
 }
@@ -527,7 +527,7 @@ a {
 
 .md_sec_5_wrap {
     height: 750px;
-    background-image: url(./kakaoimage./home_map.png);
+    background-image: url(/kakaoimage/home_map.png);
     background-repeat: no-repeat;
     background-position: -12% 50%;
 }
@@ -547,10 +547,10 @@ a {
     opacity: 1;
 }
 
-./* 섹션5 끝 *./
-./* 중간섹션 끝 *./
+/* 섹션5 끝 */
+/* 중간섹션 끝 */
 
-./* 대출박스 시작 *./
+/* 대출박스 시작 */
 .loan-box {
     background-color: #333b58;
     position: relative;
@@ -620,7 +620,7 @@ a {
     left: -23%;
 }
 
-./* 대출박스 - 별 시작 *./
+/* 대출박스 - 별 시작 */
 .loan-box .sky .ico-star {
     position: absolute;
     width: 4px;
@@ -707,7 +707,7 @@ a {
     animation: clittering 3.5s infinite;
 }
 
-./* con 시작 *./
+/* con 시작 */
 .loan-box .con {
     text-align: center;
 }
@@ -764,7 +764,7 @@ a {
     margin-left: 10px;
     width: 6px;
     height: 9px;
-    background: url(./kakaoimage./home_arr2.png);
+    background: url(./kakaoimage/home_arr2.png);
     background-size: 100%;
 }
 
@@ -772,10 +772,10 @@ a {
     width: 429px;
     margin: 0 auto;
 }
-./* 대출박스 끝 *./
+/* 대출박스 끝 */
 
 
-./* 체크카드 시작 *./
+/* 체크카드 시작 */
 .checkcard_box {
     height: 1062px;
 }
@@ -822,11 +822,11 @@ a {
     margin-left: 10px;
     width: 6px;
     height: 9px;
-    background: url(./kakaoimage./home_arr.png);
+    background: url(./kakaoimage/home_arr.png);
     background-size: 100%;
 }
 
-./* 슬라이드 시작 *./
+/* 슬라이드 시작 */
 .checkcard_box .slider_box  {
     margin: 100px auto 0 auto;
     position: relative;
@@ -874,11 +874,11 @@ a {
     transform: translateY(-45%);
 }
 
-./* 슬라이드 끝 *./
-./* 체크카드 끝 *./
+/* 슬라이드 끝 */
+/* 체크카드 끝 */
 
 
-./* IT기술 박스 시작 *./
+/* IT기술 박스 시작 */
 .itskill_box {
     background-color: #f9f9f9;
     padding-top: 160px;
@@ -910,7 +910,7 @@ a {
     width: 100%;
     height: 1px;
     background-color: #eee;
-    top: calc((271.5px - 1px)./2);
+    top: calc((271.5px - 1px)/2);
     left: 0;
     z-index: -1;
 }
@@ -947,9 +947,9 @@ a {
     color: #666;
     font-weight: 200;
 }
-./* IT기술 박스 끝*./
+/* IT기술 박스 끝*/
 
-./* footer 시작 *./
+/* footer 시작 */
 footer {
     background-color: #eee;
 }
@@ -1051,7 +1051,7 @@ footer .box-3 > .menu-box-2 > ul > li > a {
 
 footer .box-3 > .menu-box-2 .ico_sns {
     height: 100%;
-    background: url(./kakaoimage./ico_sns.png);
+    background: url(/kakaoimage/ico_sns.png);
 }
 
 footer .box-3 > .menu-box-2 .ico_sns_facebook {
@@ -1070,4 +1070,4 @@ footer .box-3 > .menu-box-2 .ico_sns_brunch {
     background-position: -217px -138px;
 }
 
-./* footer 끝 *./
+/* footer 끝 */
