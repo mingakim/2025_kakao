@@ -764,7 +764,7 @@ a {
     margin-left: 10px;
     width: 6px;
     height: 9px;
-    background: url(../kakaoimage/home_arr2.png);
+    background: url(/kakaoimage/home_arr2.png);
     background-size: 100%;
 }
 
@@ -822,7 +822,7 @@ a {
     margin-left: 10px;
     width: 6px;
     height: 9px;
-    background: url(../kakaoimage/home_arr.png);
+    background: url(/kakaoimage/home_arr.png);
     background-size: 100%;
 }
 
